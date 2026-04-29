@@ -3,7 +3,8 @@ import { createRoot } from "react-dom/client";
 import { RefreshCcw } from "lucide-react";
 import "./styles.css";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3000";
+const API_URL =
+  import.meta.env.VITE_API_URL || "https://api-data-hora-195d.onrender.com";
 
 function App() {
   const [dateTime, setDateTime] = useState(null);
